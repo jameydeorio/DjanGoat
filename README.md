@@ -55,7 +55,7 @@ setup properly follow these steps:
     $ psql -U postgres
     postgres=# CREATE DATABASE djangoat;
     postgres=# \c djangoat
-    djangoat=# CREATE USER your_username WITH BY 'your_password';
+    djangoat=# CREATE USER your_username WITH PASSWORD 'your_password';
     djangoat=# GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO your_username;
     djangoat=# \q
 ```
